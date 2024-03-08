@@ -9,7 +9,7 @@ export type Product = {
     description:string,
     category:string,
     rating:string,
-    numberReviews:string,
+    numberReviews:number,
     countInStock:number,
     colors?:[],
     sizes?:[], // sizes and colors are list because they are optional
